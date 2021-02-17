@@ -22,3 +22,17 @@ Programming Languages
 * jQuery
 * Git
 * Docker
+
+Code
+====
+
+```
+  = f.input :boss_label, required: edit, grid_wrapper_html: {class: 'd-flex'} do
+    = f.input :boss_f, wrapper: :inline_input, wrapper_html: {class: classnames('mr-2', 'flex-fill')}
+    = f.input :boss_i, wrapper: :inline_input, wrapper_html: {class: classnames('mr-2', 'flex-fill')}
+    = f.input :boss_o, wrapper: :inline_input, wrapper_html: {class: classnames('flex-fill')}
+```
+    
+Experience
+==========
+none
