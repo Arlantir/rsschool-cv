@@ -36,3 +36,11 @@ Code
 Experience
 ==========
 none
+
+Languages
+=========
+
+*Languages:*
+
+* Russian (native speaker)
+* English (elementary)
