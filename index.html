@@ -1,1 +1,324 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
+  <title>Denis Tarasenko</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="ten columns">
+      <h1>Денис Тарасенко</h1>
+    </div>
+  </div>
 
+  <h3>Ruby/Ruby on Rails разработчик</h3>
+
+  <div class="row">
+    <div class="twelve columns">
+      <!-- About me -->
+      <div class="row">
+        <div class="nine columns">
+          <h3 class="title-small">Обо мне</h3>
+          <table>
+            <tbody>
+            <tr>
+              <td>Язык:Русский | Английский: чтение технической документаци</td>
+            </tr>
+            <tr>
+              <td>Местопроживание: Россия, Москва</td>
+            </tr>
+            <tr>
+              <td>Контакты: Email: <a href="mailto:ror@worldoflosttime.ru">ror@worldoflosttime.ru</a> | Телефон: <a
+                  href="tel:+7(926)694-62-71">+7(926)694-62-71</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Arlantir" target="_blank">GitHub</a></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="three columns">
+          <div class="avatar"></div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div>
+        <table class="u-full-width">
+          <tbody>
+
+          <tr>
+            <td class="title-table">Умение</td>
+            <td class="title-table">Описание</td>
+          </tr>
+          <!-- Ruby|RoR -->
+          <tr>
+            <td class="title"><b>Ruby/RoR</b></td>
+            <td>
+              <ul>
+                - Понимание основных принципов <b>ООП</b>;
+              </ul>
+              <ul>
+                - Для чего нужно <b>MVC</b>;
+              </ul>
+              <ul>
+                - Разработка проектов на <b>Ruby</b> и <b>RoR</b>, используя, в частности,
+                популярные
+                гемы:
+                <li>
+                  <b>Devise</b> для аутентификации;
+                </li>
+                <li>
+                  <b>Pundit</b> для авторизации пользователей;
+                </li>
+                <li>
+                  <b>i18n</b> для русской локализации;
+                </li>
+                <li>
+                  <b>Resque | Sidekiq</b> для отправки почты через очередь задач <b>ActiveJob</b>, что бы пользователь не ждал
+                  отправки почты;
+                </li>
+                <li>
+                  <b>Fog AWS</b>, <b>carrierwave</b> для загрузки и хранения фотографий на <b>Amazon S3</b>;
+                </li>
+                <li>
+                  <b>Factory bot</b> для создания фабрик, которые применяются в тестах;
+                </li>
+                <li>
+                  <b>Capybara</b> для интеграционных тестов;
+                </li>
+                <li>
+                  <b>Оmniauth</b> для аутентификации через социальные сети;
+                </li>
+                <li>
+                  <b>Capistrano</b> для деплоя на <b>production</b> всего парой команд.
+                </li>
+              </ul>
+              <ul>
+                - <b>WebSocket</b> для приложения-чата и функции online precense.
+              </ul>
+              <ul>
+                - <b>ActionMailer</b> для отправки писем;
+              </ul>
+            </td>
+          </tr>
+
+          <!-- RSpec -->
+          <tr>
+            <td><b>RSpec</b></td>
+            <td>
+              <ul>
+                - Покрытие интеграционными и юнит тестами приложений на <b>RoR</b>, тестировались такие части как:
+                <li><b>Controllers</b> - использование request spec для проверки правильности обработки запроса;</li>
+                <li><b>Models</b> - проверка логики приложения и валидаций;</li>
+                <li><b>Views</b> - проверка наличия информации на страницах при определенных условиях.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- Databases -->
+          <tr>
+            <td><b>Databases</b></td>
+            <td>
+              <ul>- Понимание основной концепции реляционных баз данных;</ul>
+              <ul>- Работа с основными операциями: <b>select (+ joins)</b>, <b>update</b>, <b>delete</b>;
+              </ul>
+              <ul>- <b>SQL - PostgreSQL</b> в качестве основной базы данных в среде <b>разработки</b>, <b>
+                тестирования</b> и настройки <b>production</b>;
+              </ul>
+              <ul>
+                - <b>No SQL - Redis + Resque</b> - практиковался в создании фоновых задач.
+              </ul>
+            </td>
+          </tr>
+
+          <!-- Git -->
+          <tr>
+            <td><b>Git</b></td>
+            <td>
+              <ul>
+                - <b>Git</b> - использование системы контроля версий (pull/push, commit, rebase).
+              </ul>
+              <ul>
+                - <b>GitHub</b> - управление merge request-ами.
+              </ul>
+            </td>
+          </tr>
+
+          <!-- Fronted -->
+          <tr>
+            <td><b>Fronted</b></td>
+            <td>
+              <ul>
+                - <b>HTML + CSS</b> адаптивная верстка страниц на bootstrap;
+              </ul>
+              <ul>
+                - <b>Bootstrap</b> для более быстрой разработки макетов страниц;
+              </ul>
+              <ul>
+                - <b>JavaScript</b> - манипуляция DOM и событиями с jQuery, взаимодействие с сервером через web sockets.
+              </ul>
+            </td>
+          </tr>
+
+          <!-- DevOps -->
+          <tr>
+            <td><b>DevOps</b></td>
+            <td>
+              <ul>
+                - <b>nginx + passenger</b> - разворачивание и настройка с нуля на Ubuntu Server;
+              </ul>
+              <ul>
+                - <b>heroku</b> - деплой и настройка приложения;
+              </ul>
+              <ul>
+                - <b>VPS - DigitalOcean</b> - настройка сервера для деплоя приложения;
+              </ul>
+              <ul>
+                - <b>capistrano</b> - настраивал для автоматизированного развертывания приложения на сервере;
+              </ul>
+              <ul>
+                - <b>Linux</b>: базовое администрирование Ubuntu и на удаленном веб-сервере для разработки и
+                развертывания приложений на <b>RoR</b>;
+              </ul>
+            </td>
+          </tr>
+
+          <!-- personal preferences -->
+          <tr>
+            <td><b>Personal preferences</b></td>
+            <td>
+              <ul>
+                - Понимаю важность стиля кода и следую ему инстинктивно;
+              </ul>
+              <ul>
+                - Понимаю необходимость написания тестов в процессе разработки для покрытия ими нового функционал и с удовольствием занимаюсь этим;
+              </ul>
+              <ul>
+                - Не боюсь влезть в чужой код с помощью <b>pry</b>.
+              </ul>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Job -->
+      <div>
+        <h3 class="title-small">Опыт работы</h3>
+        <table class="u-full-width">
+          <tbody>
+            <tr>
+              <td><a href="https://xn--80agflthakqd0d1e.xn--p1ai/Pages/home.aspx" target="_blank">ФГБУ "САЦ Минэнерго России"</a></td>
+              <td>с 2011 - п.н.в.</td>
+            </tr>
+            <tr>
+              <td>должность: </td>
+              <td>
+                <ul>
+                  ведущий эксперт отдела автоматизации
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>обязанности:</td>
+              <td>
+                <ul>
+                  - Обработка информации, поступающая от объектов ТЭК в GeoMedia Pro, выполнение расчетных задач с
+                  помощью модуля Grid;
+                </ul>
+                <ul>
+                  - Администрирование программ на платформе EMC Documentum, MS SharePoint.
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Education -->
+      <div>
+        <h3 class="title-small">Образование</h3>
+        <table class="u-full-width">
+          <tbody>
+            <tr>
+              <td><a href="https://www.mfua.ru/">Московский финансово-юридический университет</a></td>
+              <td>специальность: Финансы и кредит</td>
+              <td>2012 - 2016</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Courses, Trainings -->
+      <div>
+        <h3 class="title-small">Курсы</h3>
+        <table class="u-full-width">
+          <tbody>
+            <tr>
+              <td><a href="https://goodprogrammer.ru" target="_blank">goodprogrammer.ru</a></td>
+              <td>Ruby/Ruby on Rails</td>
+              <td>11.2019 - 04.2020</td>
+            </tr>
+            <tr>
+              Курсы дали хороший фундамент для продолжения деятельности в роли разработчика Ruby|RoR и показали
+              направление дальнейшего развития!
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Projects -->
+      <div>
+        <h3 class="title-small">Проекты</h3>
+        <p>Проекты сделанные при помощи Ruby/Ruby on Rails</p>
+        <table class="u-full-width">
+          <tbody>
+          <tr>
+            <td>Шашлыки <br><i>приложение для оргазиции встреч с авторизацией по пин-коду и яндекс-картами</i></td>
+            <td><a href="https://megobbq.herokuapp.com/" target="_blank">Link</a></td>
+            <td><a href="https://github.com/Arlantir/bbq" target="_blank">GitHub</a></td>
+          </tr>
+          <tr>
+            <td>Askme <br><i>клон приложения Ask | сервис задавания вопросов с хештегами</i></td>
+            <td><a href="https://megoask.herokuapp.com/" target="_blank">Link</a></td>
+            <td><a href="https://github.com/Arlantir/askme" target="_blank">GitHub</a></td>
+          </tr>
+          <tr>
+            <td>Чат (instatalk)<br> <i>real-time чат на websockets</i></td>
+            <td><a href="https://megoinstatalk.herokuapp.com/" target="_blank">Link</a></td>
+            <td><a href="https://github.com/Arlantir/instatalk" target="_blank">GitHub</a></td>
+          </tr>
+          <tr>
+            <td>Метеосервис <br><i>консольный парсер погоды c Метеосервиса</i></td>
+            <td></td>
+            <td><a href="https://github.com/Arlantir/meteoservice" target="_blank">GitHub</a></td>
+          </tr>
+          <tr>
+            <td>Парсер фильмов
+              <br><i>консольный парсер популярных фильмов с Кинопоиска</i></td>
+            <td></td>
+            <td><a href="https://github.com/Arlantir/movie_search" target="_blank">GitHub</a></td>
+          </tr>
+          <tr>
+            <td>Виселица <br><i>консольная реализация известной игры с простым ОО-дизайном</i></td>
+            <td></td>
+            <td><a href="https://github.com/Arlantir/hangman" target="_blank">GitHub</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
